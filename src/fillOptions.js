@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function fillOptions(){
+export default function FillOptions(){
     const percentages = [];
     for (let i = 0; i <=5; i = i + 0.25){
         percentages.push(i);
