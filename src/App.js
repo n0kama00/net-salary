@@ -49,7 +49,7 @@ function App() {
         </div>
         <select value={elake}
         onChange={e=> setElake(e.target.value)}>
-          <fillOptions />
+          <FillOptions />
         </select>
 
         <div>
@@ -58,7 +58,7 @@ function App() {
         </div>
         <select value={vakuutus}
         onChange={e=> setVakuutus(e.target.value)}>
-          <fillOptions />
+          <FillOptions />
         </select>
 
         <div>
